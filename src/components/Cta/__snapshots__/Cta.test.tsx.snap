@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cta should match the snapshot 1`] = `
+<button
+  class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root styled__BaseButton-sc-yzlx9g-1 fKkJnT css-sghohy-MuiButtonBase-root-MuiButton-root"
+  tabindex="0"
+  type="button"
+>
+  <span
+    class="styled__ButtonContent-sc-yzlx9g-0 kHHqy"
+  >
+    Test cta component
+  </span>
+  <span
+    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+  />
+</button>
+`;

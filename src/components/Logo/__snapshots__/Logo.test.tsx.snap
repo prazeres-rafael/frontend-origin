@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo should match the snapshot 1`] = `
+<logo.svg
+  class="styled__LogoOrigin-sc-y50cdy-0 kbYqGp"
+/>
+`;

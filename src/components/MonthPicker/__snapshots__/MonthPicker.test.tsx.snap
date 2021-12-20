@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MonthPicker should match the snapshot 1`] = `
+<div
+  class="styled__MonthContent-sc-1xp9wza-2 dJnNYN"
+>
+  <button
+    role="buttonDecrement"
+  >
+    <arrow-left.svg />
+  </button>
+  <div
+    class="MuiBox-root css-0"
+  >
+    <p
+      class="styled__MonthParagraph-sc-1xp9wza-0 OZzeP"
+      role="paragraphMonth"
+    >
+      December
+    </p>
+    <p
+      class="styled__YearParagraph-sc-1xp9wza-1 iGVZcr"
+      role="paragraphYear"
+    >
+      2021
+    </p>
+  </div>
+  <button
+    role="buttonIncrement"
+  >
+    <arrow-right.svg />
+  </button>
+</div>
+`;
