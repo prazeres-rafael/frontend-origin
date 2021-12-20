@@ -6,7 +6,7 @@ export const MonthParagraph = styled.p({
   fontSize: 16,
   fontWeight: 600,
   textAlign: 'center',
-  margin: '4px 0',
+  margin: '3px 0 2px 0',
 });
 
 export const YearParagraph = styled.p({
@@ -14,7 +14,7 @@ export const YearParagraph = styled.p({
   fontSize: 16,
   fontWeight: 400,
   textAlign: 'center',
-  margin: 0,
+  margin: '2px 0 3px 0',
 });
 
 export const MonthContent = styled.div({
@@ -36,6 +36,6 @@ export const MonthContent = styled.div({
   },
 
   '& > button > svg': {
-    margin: '0 20px',
+    margin: '0 10px',
   },
 });

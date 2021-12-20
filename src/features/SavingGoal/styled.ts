@@ -75,15 +75,13 @@ export const AmountSection = styled.div({
   flexDirection: 'row',
   marginTop: '28px',
 
-  '& > div': {
-    width: '50%',
+  '& > div > div:nth-child(2)': {
+    '@media (max-width: 899px)': {
+      marginTop: 16,
+    },
   },
 
-  '& > div:last-child': {
-    marginLeft: 16,
-  },
-
-  '& > div:nth-child(1) > div > div': {
+  '& > div > div:nth-child(1) > div > div': {
     fontFamily: 'Rubik, normal',
     fontSize: 24,
     lineHeight: '120%',

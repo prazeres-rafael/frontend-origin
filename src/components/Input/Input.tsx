@@ -7,6 +7,7 @@ export default function Input() {
   return (
     <TextField
       id="input-with-icon-textfield"
+      fullWidth
       InputProps={{
         inputMode: 'numeric',
         inputComponent: CurrencyMask,

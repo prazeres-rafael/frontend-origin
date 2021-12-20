@@ -16,7 +16,7 @@ import {
   Section,
   Subtitle,
 } from './styled';
-import { Box } from '@mui/material';
+import { Box, Grid } from '@mui/material';
 import Input from '../../components/Input';
 import MonthPicker from '../../components/MonthPicker';
 import Cta from '../../components/Cta';
@@ -36,14 +36,16 @@ export default function Header(): React.ReactElement {
           </Box>
         </GoalSection>
         <AmountSection>
-          <Box>
-            <Paragraph>Total amount</Paragraph>
-            <Input />
-          </Box>
-          <Box>
-            <Paragraph>Reach goal by</Paragraph>
-            <MonthPicker />
-          </Box>
+          <Grid container spacing={{ lg: 2, md: 2 }}>
+            <Grid item lg={7} md={7} xs={12}>
+              <Paragraph>Total amount</Paragraph>
+              <Input />
+            </Grid>
+            <Grid item lg={5} md={5} xs={12}>
+              <Paragraph>Reach goal by</Paragraph>
+              <MonthPicker />
+            </Grid>
+          </Grid>
         </AmountSection>
         <ResultSection>
           <PaperBase elevation={0}>
