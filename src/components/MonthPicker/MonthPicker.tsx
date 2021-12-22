@@ -4,22 +4,22 @@ import { MonthContent, MonthParagraph, YearParagraph } from './styled';
 import ArrowLeft from '../../assets/svg/arrow-left.svg';
 import ArrowRight from '../../assets/svg/arrow-right.svg';
 
-export default function BasicDatePicker() {
-  const months = [
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'October',
-    'November',
-    'December',
-  ];
+const months = [
+  'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December',
+];
 
+export default function BasicDatePicker() {
   const [monthCounter, setMonthCounter] = React.useState<number>(0);
   const [date, setDatePicker] = React.useState<Date>(new Date());
 
@@ -47,8 +47,23 @@ export default function BasicDatePicker() {
     setMonthCounter(monthCounter - 1);
   };
 
+  const monthByKey = (event: React.KeyboardEvent) => {
+    switch (event.key) {
+      case 'Left': // IE/Edge specific value
+      case 'ArrowLeft':
+        setMonthCounter(monthCounter - 1);
+        break;
+      case 'Right': // IE/Edge specific value
+      case 'ArrowRight':
+        setMonthCounter(monthCounter + 1);
+        break;
+      default:
+        return;
+    }
+  };
+
   return (
-    <MonthContent>
+    <MonthContent tabIndex={0} onKeyDown={monthByKey}>
       <button role="buttonDecrement" onClick={decrementMonth}>
         <ArrowLeft />
       </button>
