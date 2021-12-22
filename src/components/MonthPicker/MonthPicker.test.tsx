@@ -59,4 +59,29 @@ describe('MonthPicker', () => {
       String(date.getFullYear())
     );
   });
+
+  it('should increment month and year using keyboard when the component is focused', () => {
+    render(<MonthPicker />);
+
+    const monthContent = screen.getByRole('monthContent');
+
+    monthContent.focus();
+
+    userEvent.keyboard('{arrowright}');
+
+    const date = new Date();
+    date.setMonth(date.getMonth() + 1);
+
+    expect(screen.getByRole('paragraphMonth')).toHaveTextContent(
+      months[date.getMonth()]
+    );
+
+    userEvent.keyboard('{arrowleft}');
+
+    date.setMonth(new Date().getMonth());
+
+    expect(screen.getByRole('paragraphMonth')).toHaveTextContent(
+      months[date.getMonth()]
+    );
+  });
 });

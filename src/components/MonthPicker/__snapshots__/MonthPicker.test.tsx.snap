@@ -2,7 +2,9 @@
 
 exports[`MonthPicker should match the snapshot 1`] = `
 <div
-  class="styled__MonthContent-sc-1xp9wza-2 dJnNYN"
+  class="styled__MonthContent-sc-1xp9wza-2 kVjvBq"
+  role="monthContent"
+  tabindex="0"
 >
   <button
     role="buttonDecrement"
@@ -13,13 +15,13 @@ exports[`MonthPicker should match the snapshot 1`] = `
     class="MuiBox-root css-0"
   >
     <p
-      class="styled__MonthParagraph-sc-1xp9wza-0 OZzeP"
+      class="styled__MonthParagraph-sc-1xp9wza-0 ioNyLa"
       role="paragraphMonth"
     >
       December
     </p>
     <p
-      class="styled__YearParagraph-sc-1xp9wza-1 iGVZcr"
+      class="styled__YearParagraph-sc-1xp9wza-1 grvUoa"
       role="paragraphYear"
     >
       2021

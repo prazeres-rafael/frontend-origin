@@ -63,7 +63,7 @@ export default function BasicDatePicker() {
   };
 
   return (
-    <MonthContent tabIndex={0} onKeyDown={monthByKey}>
+    <MonthContent role="monthContent" tabIndex={0} onKeyDown={monthByKey}>
       <button role="buttonDecrement" onClick={decrementMonth}>
         <ArrowLeft />
       </button>
