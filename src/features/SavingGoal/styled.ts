@@ -55,10 +55,13 @@ export const Paragraph = styled.p({
 
 export const Section = styled.section({
   backgroundColor: palette.brand.secundary,
-  height: '90vh',
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
+
+  '@media (min-width: 768px)': {
+    height: '90vh',
+  },
 });
 
 export const GoalSection = styled.div({
