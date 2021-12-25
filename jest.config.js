@@ -4,6 +4,7 @@ const baseConfig = {
     '^.+\\.(jsx?|tsx?)$': 'babel-jest',
     '^.+\\.svg$': '<rootDir>/src/utils/path-transform.js',
   },
+  setupFilesAfterEnv: ['jest-styled-components'],
 };
 
 const serialPattern = '**/*.serial.{test,spec}.{js,jsx,ts,tsx}';

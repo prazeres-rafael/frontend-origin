@@ -5,7 +5,7 @@ import React from 'react';
 
 import InputCurrency from './InputCurrency';
 
-describe('Input', () => {
+describe('InputCurrency', () => {
   it('should match the snapshot', () => {
     const { container } = render(<InputCurrency />);
 

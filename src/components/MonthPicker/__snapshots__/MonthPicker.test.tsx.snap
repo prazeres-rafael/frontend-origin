@@ -1,36 +1,88 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`MonthPicker should match the snapshot 1`] = `
-<div
-  class="styled__MonthContent-sc-1xp9wza-2 kVjvBq"
-  role="monthContent"
-  tabindex="0"
->
-  <button
-    role="buttonDecrement"
-  >
-    <arrow-left.svg />
-  </button>
+.c1 {
+  color: #1E2A32;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin: 3px 0 2px 0;
+}
+
+.c2 {
+  color: #708797;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin: 2px 0 3px 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid #E9EEF2;
+  border-radius: 4px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 > div {
+  margin: 4px 0;
+}
+
+.c0 > button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+}
+
+.c0 > button > svg {
+  margin: 0 10px;
+}
+
+<div>
   <div
-    class="MuiBox-root css-0"
+    class="c0"
+    role="monthContent"
+    tabindex="0"
   >
-    <p
-      class="styled__MonthParagraph-sc-1xp9wza-0 ioNyLa"
-      role="paragraphMonth"
+    <button
+      role="buttonDecrement"
     >
-      Janeiro
-    </p>
-    <p
-      class="styled__YearParagraph-sc-1xp9wza-1 grvUoa"
-      role="paragraphYear"
+      <arrow-left.svg />
+    </button>
+    <div
+      class="MuiBox-root css-0"
     >
-      2021
-    </p>
+      <p
+        class="c1"
+        role="paragraphMonth"
+      >
+        Janeiro
+      </p>
+      <p
+        class="c2"
+        role="paragraphYear"
+      >
+        2021
+      </p>
+    </div>
+    <button
+      role="buttonIncrement"
+    >
+      <arrow-right.svg />
+    </button>
   </div>
-  <button
-    role="buttonIncrement"
-  >
-    <arrow-right.svg />
-  </button>
 </div>
 `;

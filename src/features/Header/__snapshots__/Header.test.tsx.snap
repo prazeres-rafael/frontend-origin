@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match the snapshot 1`] = `
+.c1 {
+  margin: 16px;
+  fill: #1E2A32;
+}
+
+.c0 {
+  background-color: #FFF;
+  height: 56px;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    margin: 24px 56px;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    height: 80px;
+  }
+}
+
+<div>
+  <header
+    class="c0"
+  >
+    <logo.svg
+      class="c1"
+    />
+  </header>
+</div>
+`;

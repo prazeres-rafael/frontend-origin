@@ -1,7 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Logo should match the snapshot 1`] = `
+.c0 {
+  margin: 16px;
+  fill: #1E2A32;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    margin: 24px 56px;
+  }
+}
+
 <logo.svg
-  class="styled__LogoOrigin-sc-y50cdy-0 kbYqGp"
+  class="c0"
 />
 `;

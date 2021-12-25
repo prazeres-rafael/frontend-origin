@@ -1,12 +1,258 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`SavingGoal should match the snapshot 1`] = `
+.c2 {
+  box-shadow: 0px 16px 32px rgba(30,42,50,0.08);
+  border-radius: 8px;
+  width: 100%;
+}
+
+.c3 {
+  padding: 40px 24px;
+}
+
+.c3:last-child {
+  padding-bottom: 40px;
+}
+
+.c19 {
+  margin: 18px 128px;
+  font-family: Work Sans,sans-serif;
+  text-transform: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.c18 {
+  background-color: #1B31A8;
+  border-radius: 32px;
+}
+
+.c10 {
+  color: #1E2A32;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin: 3px 0 2px 0;
+}
+
+.c11 {
+  color: #708797;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin: 2px 0 3px 0;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid #E9EEF2;
+  border-radius: 4px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c9 > div {
+  margin: 4px 0;
+}
+
+.c9 > button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+}
+
+.c9 > button > svg {
+  margin: 0 10px;
+}
+
+.c1 {
+  color: #1B31A8;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 48px;
+  margin-bottom: 24px;
+}
+
+.c5 {
+  color: #1E2A32;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.c6 {
+  color: #708797;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px 0 0 0;
+}
+
+.c0 {
+  background-color: #F4F8FA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c4 > div {
+  margin-left: 16px;
+}
+
+.c8 {
+  color: #1E2A32;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 6px 0;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: 28px;
+}
+
+.c7 > div > div:nth-child(1) > div > div {
+  font-family: Rubik,normal;
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 500;
+}
+
+.c7 #input-with-icon-textfield {
+  padding: 10px 0;
+}
+
+.c14 {
+  color: #1E2A32;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 32px;
+}
+
+.c15 {
+  color: #0079FF;
+  margin: 24px 30.5px 16px;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: right;
+}
+
+.c16 {
+  color: #1E2A32;
+  margin: 24px 32px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.c12 {
+  margin-top: 24px;
+}
+
+.c13 {
+  border: 1px solid #E9EEF2;
+  border-radius: 8px;
+  background: linear-gradient(180deg,#FFF 50%,#F4F8FA 50%);
+}
+
+.c13 > div {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+@media (min-width:768px) {
+  .c2 {
+    width: 560px;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 {
+    padding: 40px;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    height: 90vh;
+  }
+}
+
+@media (max-width:899px) {
+  .c7 > div > div:nth-child(2) {
+    margin-top: 16px;
+  }
+}
+
 <div>
   <section
-    class="styled__Section-sc-e4i5l9-7 bmtJZK"
+    class="c0"
   >
     <p
-      class="styled__SavingGoalParagraph-sc-e4i5l9-0 iLrnLn"
+      class="c1"
     >
       Let‘s plan your 
       <b>
@@ -14,32 +260,32 @@ exports[`SavingGoal should match the snapshot 1`] = `
       </b>
     </p>
     <div
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root styled__BaseCard-sc-79zkfj-0 jEAYHl css-bhp9pd-MuiPaper-root-MuiCard-root"
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root c2 css-bhp9pd-MuiPaper-root-MuiCard-root"
     >
       <div
-        class="MuiCardContent-root styled__BaseCardContent-sc-79zkfj-1 eSbGPx css-46bh2p-MuiCardContent-root"
+        class="MuiCardContent-root c3 css-46bh2p-MuiCardContent-root"
       >
         <div
-          class="styled__GoalSection-sc-e4i5l9-8 bPghBr"
+          class="c4"
         >
           <buy-a-house.svg />
           <div
             class="MuiBox-root css-0"
           >
             <p
-              class="styled__Title-sc-e4i5l9-1 kaOfPo"
+              class="c5"
             >
               Buy a house
             </p>
             <p
-              class="styled__Subtitle-sc-e4i5l9-2 kuiSSb"
+              class="c6"
             >
               Saving goal
             </p>
           </div>
         </div>
         <div
-          class="styled__AmountSection-sc-nnlv01-9 bqIHPx"
+          class="c7"
         >
           <div
             class="MuiGrid-root MuiGrid-container MuiGrid-spacing-md-2 MuiGrid-spacing-lg-2 css-1t4pi4v-MuiGrid-root"
@@ -48,7 +294,7 @@ exports[`SavingGoal should match the snapshot 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-7 MuiGrid-grid-lg-7 css-1a4ufwv-MuiGrid-root"
             >
               <p
-                class="styled__Paragraph-sc-nnlv01-6 jCFrPL"
+                class="c8"
               >
                 Total amount
               </p>
@@ -98,12 +344,12 @@ exports[`SavingGoal should match the snapshot 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-5 MuiGrid-grid-lg-5 css-urj5pv-MuiGrid-root"
             >
               <p
-                class="styled__Paragraph-sc-nnlv01-6 jCFrPL"
+                class="c8"
               >
                 Reach goal by
               </p>
               <div
-                class="styled__MonthContent-sc-1xp9wza-2 kVjvBq"
+                class="c9"
                 role="monthContent"
                 tabindex="0"
               >
@@ -116,13 +362,13 @@ exports[`SavingGoal should match the snapshot 1`] = `
                   class="MuiBox-root css-0"
                 >
                   <p
-                    class="styled__MonthParagraph-sc-1xp9wza-0 ioNyLa"
+                    class="c10"
                     role="paragraphMonth"
                   >
                     December
                   </p>
                   <p
-                    class="styled__YearParagraph-sc-1xp9wza-1 grvUoa"
+                    class="c11"
                     role="paragraphYear"
                   >
                     2021
@@ -138,21 +384,21 @@ exports[`SavingGoal should match the snapshot 1`] = `
           </div>
         </div>
         <div
-          class="styled__ResultSection-sc-fi1qno-10 dUEOdA"
+          class="c12"
         >
           <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 styled__PaperBase-sc-fi1qno-11 bPlyGs css-ee20y-MuiPaper-root"
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 c13 css-ee20y-MuiPaper-root"
           >
             <div
               class="MuiBox-root css-0"
             >
               <p
-                class="styled__AmountParagraph-sc-fi1qno-3 blmdeJ"
+                class="c14"
               >
                 Monthly amount
               </p>
               <p
-                class="styled__AmountValue-sc-fi1qno-4 fhwvpX"
+                class="c15"
                 role="amountValue"
               >
                 <span>
@@ -161,7 +407,7 @@ exports[`SavingGoal should match the snapshot 1`] = `
               </p>
             </div>
             <p
-              class="styled__AmountDescription-sc-fi1qno-5 jwYJie"
+              class="c16"
               role="amountDescription"
             >
               You‘re planning 
@@ -182,15 +428,15 @@ exports[`SavingGoal should match the snapshot 1`] = `
             </p>
           </div>
           <div
-            class="styled__ConfirmSection-sc-fi1qno-12 eqSeuq"
+            class="c17"
           >
             <button
-              class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root styled__BaseButton-sc-yzlx9g-1 fKkJnT css-sghohy-MuiButtonBase-root-MuiButton-root"
+              class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root c18 css-sghohy-MuiButtonBase-root-MuiButton-root"
               tabindex="0"
               type="button"
             >
               <span
-                class="styled__ButtonContent-sc-yzlx9g-0 kHHqy"
+                class="c19"
               >
                 Confirm
               </span>

@@ -15,6 +15,6 @@ describe('MonthPicker', () => {
         monthByKey={() => jest.fn()}
       />
     );
-    expect(container.firstChild).toMatchSnapshot();
+    expect(container).toMatchSnapshot();
   });
 });
