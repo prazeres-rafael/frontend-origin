@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SavingGoal should match the snapshot 1`] = `
+<div>
+  <section
+    class="styled__Section-sc-e4i5l9-7 bmtJZK"
+  >
+    <p
+      class="styled__SavingGoalParagraph-sc-e4i5l9-0 iLrnLn"
+    >
+      Let‘s plan your 
+      <b>
+        saving goal.
+      </b>
+    </p>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root styled__BaseCard-sc-79zkfj-0 jEAYHl css-bhp9pd-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiCardContent-root styled__BaseCardContent-sc-79zkfj-1 eSbGPx css-46bh2p-MuiCardContent-root"
+      >
+        <div
+          class="styled__GoalSection-sc-e4i5l9-8 bPghBr"
+        >
+          <buy-a-house.svg />
+          <div
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="styled__Title-sc-e4i5l9-1 kaOfPo"
+            >
+              Buy a house
+            </p>
+            <p
+              class="styled__Subtitle-sc-e4i5l9-2 kuiSSb"
+            >
+              Saving goal
+            </p>
+          </div>
+        </div>
+        <div
+          class="styled__AmountSection-sc-nnlv01-9 bqIHPx"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-md-2 MuiGrid-spacing-lg-2 css-1t4pi4v-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-7 MuiGrid-grid-lg-7 css-1a4ufwv-MuiGrid-root"
+            >
+              <p
+                class="styled__Paragraph-sc-nnlv01-6 jCFrPL"
+              >
+                Total amount
+              </p>
+              <div
+                class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-wb57ya-MuiFormControl-root-MuiTextField-root"
+              >
+                <div
+                  class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedStart css-8j6b76-MuiInputBase-root-MuiOutlinedInput-root"
+                  inputmode="numeric"
+                >
+                  <div
+                    class="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-ittuaa-MuiInputAdornment-root"
+                  >
+                    <span
+                      class="notranslate"
+                    >
+                      ​
+                    </span>
+                    <dollar-sign.svg />
+                  </div>
+                  <input
+                    aria-invalid="false"
+                    class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedStart css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input"
+                    id="input-with-icon-textfield"
+                    inputmode="numeric"
+                    type="text"
+                    value=""
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      class="css-nnbavb"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-5 MuiGrid-grid-lg-5 css-urj5pv-MuiGrid-root"
+            >
+              <p
+                class="styled__Paragraph-sc-nnlv01-6 jCFrPL"
+              >
+                Reach goal by
+              </p>
+              <div
+                class="styled__MonthContent-sc-1xp9wza-2 kVjvBq"
+                role="monthContent"
+                tabindex="0"
+              >
+                <button
+                  role="buttonDecrement"
+                >
+                  <arrow-left.svg />
+                </button>
+                <div
+                  class="MuiBox-root css-0"
+                >
+                  <p
+                    class="styled__MonthParagraph-sc-1xp9wza-0 ioNyLa"
+                    role="paragraphMonth"
+                  >
+                    December
+                  </p>
+                  <p
+                    class="styled__YearParagraph-sc-1xp9wza-1 grvUoa"
+                    role="paragraphYear"
+                  >
+                    2021
+                  </p>
+                </div>
+                <button
+                  role="buttonIncrement"
+                >
+                  <arrow-right.svg />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="styled__ResultSection-sc-fi1qno-10 dUEOdA"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 styled__PaperBase-sc-fi1qno-11 bPlyGs css-ee20y-MuiPaper-root"
+          >
+            <div
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="styled__AmountParagraph-sc-fi1qno-3 blmdeJ"
+              >
+                Monthly amount
+              </p>
+              <p
+                class="styled__AmountValue-sc-fi1qno-4 fhwvpX"
+                role="amountValue"
+              >
+                <span>
+                  $0
+                </span>
+              </p>
+            </div>
+            <p
+              class="styled__AmountDescription-sc-fi1qno-5 jwYJie"
+              role="amountDescription"
+            >
+              You‘re planning 
+              <b>
+                1
+                 monthly deposits
+              </b>
+               to reach your
+              <b>
+                 
+                0
+              </b>
+               goal by 
+              <b>
+                October 2020
+              </b>
+              .
+            </p>
+          </div>
+          <div
+            class="styled__ConfirmSection-sc-fi1qno-12 eqSeuq"
+          >
+            <button
+              class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root styled__BaseButton-sc-yzlx9g-1 fKkJnT css-sghohy-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="styled__ButtonContent-sc-yzlx9g-0 kHHqy"
+              >
+                Confirm
+              </span>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

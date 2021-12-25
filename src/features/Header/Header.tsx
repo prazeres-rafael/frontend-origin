@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../components/Logo';
+import { Logo } from 'components';
 import { HeaderOrigin } from './styled';
 
 export default function Header(): React.ReactElement {

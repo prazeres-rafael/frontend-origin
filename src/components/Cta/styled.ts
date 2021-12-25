@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Button } from '@mui/material';
-import { fontFamily } from '../../utils/font';
-import { palette } from '../../utils/palette';
+import { fontFamily } from 'utils/font';
+import { palette } from 'utils/palette';
 
 export const ButtonContent = styled.span({
   margin: '18px 128px',

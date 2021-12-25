@@ -18,7 +18,7 @@ exports[`MonthPicker should match the snapshot 1`] = `
       class="styled__MonthParagraph-sc-1xp9wza-0 ioNyLa"
       role="paragraphMonth"
     >
-      December
+      Janeiro
     </p>
     <p
       class="styled__YearParagraph-sc-1xp9wza-1 grvUoa"

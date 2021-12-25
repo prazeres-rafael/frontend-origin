@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import LogoBase from '../../assets/svg/logo.svg';
-import { palette } from '../../utils/palette';
+import LogoBase from 'assets/svg/logo.svg';
+import { palette } from 'utils/palette';
 
 export const LogoOrigin = styled(LogoBase)({
   margin: 16,

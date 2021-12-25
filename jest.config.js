@@ -14,6 +14,7 @@ module.exports = {
       ...baseConfig,
       displayName: 'parallel',
       testMatch: [serialPattern.replace('.serial', ''), `!${serialPattern}`],
+      moduleDirectories: ['node_modules', 'src'],
     },
   ],
 };

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { palette } from '../../utils/palette';
+import { palette } from 'utils/palette';
 
 export const MonthParagraph = styled.p({
   color: palette.paragraph.primary,

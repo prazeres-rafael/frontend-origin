@@ -1,13 +1,13 @@
 import React from 'react';
 import { InputAdornment, TextField } from '@mui/material';
-import DollarSign from '../../assets/svg/dollar-sign.svg';
+import DollarSign from 'assets/svg/dollar-sign.svg';
 import { CurrencyMask } from './CurrencyMask';
 
 type Props = {
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
 };
 
-export default function Input({ onChange }: Props) {
+export default function InputCurrency({ onChange }: Props) {
   return (
     <TextField
       id="input-with-icon-textfield"

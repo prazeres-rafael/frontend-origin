@@ -1,8 +1,8 @@
 import { Box } from '@mui/material';
 import React from 'react';
 import { MonthContent, MonthParagraph, YearParagraph } from './styled';
-import ArrowLeft from '../../assets/svg/arrow-left.svg';
-import ArrowRight from '../../assets/svg/arrow-right.svg';
+import ArrowLeft from 'assets/svg/arrow-left.svg';
+import ArrowRight from 'assets/svg/arrow-right.svg';
 
 type Props = {
   date: Date;
@@ -12,7 +12,7 @@ type Props = {
   month: string;
 };
 
-export default function BasicDatePicker({
+export default function MonthPicker({
   date,
   monthByKey,
   decrementMonth,

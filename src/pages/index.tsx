@@ -1,13 +1,13 @@
 import type { NextPage } from 'next';
-import Header from '../features/Header';
-import SavingGoal from '../features/SavingGoal';
-import { font } from '../utils/font';
+import { SavingGoalPage } from 'features';
+import Header from 'features/Header';
+import { font } from 'utils/font';
 
 const Home: NextPage = () => {
   return (
     <>
       <Header />
-      <SavingGoal />
+      <SavingGoalPage />
       <style jsx global>
         {font}
       </style>
