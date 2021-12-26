@@ -16,6 +16,7 @@ describe('InputCurrency', () => {
     render(<InputCurrency />);
 
     userEvent.type(screen.getByRole('textbox'), 'Hello, World!');
+
     expect(screen.getByRole('textbox')).toHaveValue('');
   });
 
@@ -23,6 +24,7 @@ describe('InputCurrency', () => {
     render(<InputCurrency />);
 
     userEvent.type(screen.getByRole('textbox'), '100');
+
     expect(screen.getByRole('textbox')).toHaveValue('100');
   });
 
@@ -30,6 +32,7 @@ describe('InputCurrency', () => {
     render(<InputCurrency />);
 
     userEvent.type(screen.getByRole('textbox'), '1test2test3');
+
     expect(screen.getByRole('textbox')).toHaveValue('123');
   });
 
@@ -37,6 +40,7 @@ describe('InputCurrency', () => {
     render(<InputCurrency />);
 
     userEvent.type(screen.getByRole('textbox'), '100000000.50');
+
     expect(screen.getByRole('textbox')).toHaveValue('100,000,000.50');
   });
 });

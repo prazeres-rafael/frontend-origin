@@ -31,7 +31,6 @@ describe('SavingGoal', () => {
     render(<SavingGoal />);
 
     userEvent.click(screen.getByRole('buttonDecrement'));
-
     const currentMonth = new Date().getMonth();
     const currentYear = new Date().getFullYear();
 
@@ -48,7 +47,6 @@ describe('SavingGoal', () => {
 
     const incrementButton = screen.getByRole('buttonIncrement');
     userEvent.click(incrementButton);
-
     const date = new Date();
     date.setMonth(date.getMonth() + 1);
 
@@ -65,9 +63,7 @@ describe('SavingGoal', () => {
 
     const monthContent = screen.getByRole('monthContent');
     monthContent.focus();
-
     userEvent.keyboard('{arrowright}');
-
     const date = new Date();
     date.setMonth(date.getMonth() + 1);
 
@@ -76,7 +72,6 @@ describe('SavingGoal', () => {
     );
 
     userEvent.keyboard('{arrowleft}');
-
     date.setMonth(new Date().getMonth());
 
     expect(screen.getByRole('paragraphMonth')).toHaveTextContent(
@@ -96,7 +91,6 @@ describe('SavingGoal', () => {
     render(<SavingGoal />);
 
     userEvent.type(screen.getByRole('textbox'), '100');
-
     const incrementButton = screen.getByRole('buttonIncrement');
     userEvent.click(incrementButton);
 

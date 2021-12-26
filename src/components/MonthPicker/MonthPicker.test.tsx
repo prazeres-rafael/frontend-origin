@@ -11,10 +11,11 @@ describe('MonthPicker', () => {
         date={new Date()}
         decrementMonth={() => jest.fn()}
         incrementMonth={() => jest.fn()}
-        month="Janeiro"
         monthByKey={() => jest.fn()}
+        month="Janeiro"
       />
     );
+
     expect(container).toMatchSnapshot();
   });
 });
