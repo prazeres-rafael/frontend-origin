@@ -66,6 +66,7 @@ export default function AmonthSection(): React.ReactElement {
       </AmountSection>
       <Result
         amount={amount}
+        date={date}
         monthCounter={monthCounter}
         monthlyAmount={monthlyAmount}
       />
