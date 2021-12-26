@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import LogoBase from 'assets/svg/logo.svg';
+import LogoBase from 'assets/svg/logo-origin.svg';
 import { palette } from 'utils/palette';
 
 export const LogoOrigin = styled(LogoBase)({
