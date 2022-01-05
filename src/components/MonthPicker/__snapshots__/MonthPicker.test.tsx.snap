@@ -75,7 +75,7 @@ exports[`MonthPicker should match the snapshot 1`] = `
         class="c2"
         role="paragraphYear"
       >
-        2021
+        2022
       </p>
     </div>
     <button

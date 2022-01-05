@@ -365,13 +365,13 @@ exports[`SavingGoal should match the snapshot 1`] = `
                     class="c10"
                     role="paragraphMonth"
                   >
-                    December
+                    January
                   </p>
                   <p
                     class="c11"
                     role="paragraphYear"
                   >
-                    2021
+                    2022
                   </p>
                 </div>
                 <button
@@ -420,9 +420,12 @@ exports[`SavingGoal should match the snapshot 1`] = `
                  
                 0
               </b>
-               goal by 
+               goal by
+               
               <b>
-                October 2020
+                January
+                 
+                2022
               </b>
               .
             </p>
